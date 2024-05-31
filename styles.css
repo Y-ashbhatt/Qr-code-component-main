@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+    height: 100vh;
+    background: var(--Light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container{
+
+    width: 20%;
+    height: 450px;
+    background: var(--White);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 1rem;
+   
+
+}
+@font-face {
+    font-family: 'Outfit'; /*a name to be used later*/
+    src: url('https://fonts.google.com/specimen/Outfit'); /*URL to font*/
+}
+.text{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    gap: 1rem;
+
+ 
+}
+h1{
+    font-size: 18px;
+    
+    font-weight:  700;
+    color: var(--Dark-blue);
+  
+}
+p{
+    font-size: 15px;
+    font-weight:  400;
+   
+    color: var(--Grayish-blue);
+
+}
+img{
+    display: block;
+    width: 90%;
+    border-radius: 1rem;
+    margin: 10px;
+
+   
+   
+}
+
+@media only screen and (max-width:375px) {
+
+}
