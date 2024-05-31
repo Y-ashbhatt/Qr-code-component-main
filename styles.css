@@ -29,13 +29,13 @@ body {
 .container{
 
     width: 20%;
-    height: 450px;
+    height: 400px;
     background: var(--White);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
+    justify-content: center;
     gap: 1rem;
    
 
@@ -56,7 +56,6 @@ body {
 }
 h1{
     font-size: 18px;
-    
     font-weight:  700;
     color: var(--Dark-blue);
   
@@ -69,15 +68,12 @@ p{
 
 }
 img{
-    display: block;
     width: 90%;
     border-radius: 1rem;
-    margin: 10px;
 
-   
    
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:480px) {
 
 }
